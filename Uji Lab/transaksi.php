@@ -201,7 +201,7 @@ function rupiah($angka){
                         <td><?php echo rupiah($data['totalbayar']) ?></td>
                         <td>
                             <a href="print.php?id_transaksi=<?php echo $data['id_transaksi']; ?>" class="btn-2">Cetak</a> 
-                            <a href="hapus-trans.php?id_transaksi=<?php echo $data['id_transaksi']; ?>" class="btn-2" onclick="return confirmDelete()">Hapus</a>
+                            <a href="hapus-trans.php?id_transaksi=<?php echo $data['id_transaksi']; ?>" class="btn-2" onclick="return confirmDelete()">Delete</a>
                         </td>
                     </tr>   
                     <?php } ?>
